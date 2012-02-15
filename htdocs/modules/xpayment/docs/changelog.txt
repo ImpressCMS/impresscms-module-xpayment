@@ -1,0 +1,44 @@
+========================================
+ 2012/01/09 00:45:00 Version 1.42 STABLE
+========================================
+ - Changed $GLOBALS['icmsModule'] in module renamed to $GLOBALS['xpaymentModule'] /class/gateway, /class, /include, / (Wishcraft)
+ - Changed $GLOBALS['icmsModuleConfig'] in module renamed to $GLOBALS['xpaymentModuleConfig']  /class/gateway, /class, /include, / (Wishcraft)
+ - Changed /class/invoice_items.php Application of existing discount code fixed - previously no reduction on form submit  (Wishcraft)
+ - Changed /index.php Detect for existing unpaid key for invoice and pass to with Redirection include User IP or UID  (Wishcraft)
+ - Changed /icms_version.php Manual transaction prefix code for invoice  (Wishcraft)
+ - Changed /language/english/modinfo.php Manual transaction prefix code for invoice Preferences text (Wishcraft)
+ - Changed /templates/xpayment_payment.php Distinction between payment types with border & manual transaction prefix to invoice number  (Wishcraft)
+ - Fixed Warnings & Notices (Requested by Mamba)  (Wishcraft)
+
+========================================
+ 2012/01/05 8:59:00 Version 1.41 STABLE
+========================================
+ - Changed /index.php Detect for existing unpaid key for invoice and pass to with Redirection  (Wishcraft)
+ - Changed /index.php Application of existing discount code fixed - previously no reduction  (Wishcraft)
+ 
+========================================
+ 2011/11/08 04:59:00 Version 1.39 STABLE
+========================================
+ - Changed $pathImageAdmin renamed to $GLOBALS['xtransamImageAdmin']  (Wishcraft)
+ - Changed $pathImageIcon renamed to $GLOBALS['xtransamImageIcon']  (Wishcraft)
+ - Changed $GLOBALS['icmsModule'] in module renamed to $GLOBALS['xpaymentModule'] (Wishcraft)
+ - Changed $GLOBALS['icmsModuleConfig'] in module renamed to $GLOBALS['xpaymentModuleConfig'] (Wishcraft)
+ 
+========================================
+ 2011/11/05 01:01:01 Version 1.38 STABLE
+========================================
+ - Added 32x32 System Icons Added to the Frameworks Module Class (wishcraft)
+ - Added 16x16 System Icons Added to the Frameworks Module Class (wishcraft)
+ - Added More informative InfoBox on Dashboard index.php (wishcraft)
+ - Added GUI Admin for Xoops 2.5.x  (wishcraft)
+ - Added language/english/help folder  (wishcraft)
+ - Added language/english/help/help.html folder  (wishcraft)
+ - Added admin/index.php send reminder notice to invoicee about invoice button in admin  (wishcraft)
+ - Added admin/index.php link to user HTML and PDF Invoice in admin  (wishcraft)
+ - Added language/english/mail_templates/xpayment_invoice_reminder.tpl email template for reminder  (wishcraft)
+ - Changed admin/menu.php include dashboard and about options  (wishcraft)
+ - Changed language/english/modinfo.php include dashboard and about constants  (wishcraft)
+ - Changed language/english/admin.php include dashboard and about constants  (wishcraft)
+ - Changed admin/index.php to include dashboard and about routines  (wishcraft)
+ - Changed class/invoice.php to include dashboard routines in handler  (wishcraft)
+ - Changed admin/index.php export function for invoice header with filters  (wishcraft)

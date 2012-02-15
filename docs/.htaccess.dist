@@ -1,0 +1,11 @@
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^payment/(.*?).html$ 		modules/xpayment/index.php?iid=$1
+RewriteRule ^payment/pdf,(.*?).pdf$		modules/xpayment/pdf.php?iid=$1
+RewriteRule ^payment/index$ 			modules/xpayment/index.php$1
+RewriteRule ^payment/$ 					modules/xpayment/index.php$1
+
+
